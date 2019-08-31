@@ -1,0 +1,917 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0868A033D5B0AFA215FD77DB /* Pods_SuperPoweredUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C86CF5BA9C438FE3C45D7DE /* Pods_SuperPoweredUITests.framework */; };
+		2C1B791A1F78BAF1002412C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B79191F78BAF1002412C6 /* AppDelegate.swift */; };
+		2C1B791C1F78BAF1002412C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B791B1F78BAF1002412C6 /* ViewController.swift */; };
+		2C1B791F1F78BAF1002412C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B791D1F78BAF1002412C6 /* Main.storyboard */; };
+		2C1B79211F78BAF1002412C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B79201F78BAF1002412C6 /* Assets.xcassets */; };
+		2C1B79241F78BAF1002412C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B79221F78BAF1002412C6 /* LaunchScreen.storyboard */; };
+		2C1B792F1F78BAF1002412C6 /* SuperPoweredTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B792E1F78BAF1002412C6 /* SuperPoweredTests.swift */; };
+		2C1B793A1F78BAF1002412C6 /* SuperPoweredUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B79391F78BAF1002412C6 /* SuperPoweredUITests.swift */; };
+		2C57D41A1F99A547005DD2A5 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C57D4191F99A547005DD2A5 /* PlayerViewController.swift */; };
+		2C620F941F7B9A1800EAFA56 /* FrequencyDomain.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2C620F911F7B992700EAFA56 /* FrequencyDomain.mm */; };
+		2C620F951F7B9A1800EAFA56 /* SuperpoweredAudioBuffers.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B79741F78FB33002412C6 /* SuperpoweredAudioBuffers.h */; };
+		2C620F961F7B9A1800EAFA56 /* SuperpoweredSimple.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B79781F78FC4C002412C6 /* SuperpoweredSimple.h */; };
+		2C620F981F7B9A1800EAFA56 /* SuperpoweredFlanger.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B795F1F78CD40002412C6 /* SuperpoweredFlanger.h */; };
+		2C620F991F7B9A1800EAFA56 /* SuperpoweredIOSAudioIO.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B79611F78CD40002412C6 /* SuperpoweredIOSAudioIO.h */; };
+		2C620F9A1F7B9A1800EAFA56 /* SuperpoweredIOSAudioIO.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B79601F78CD40002412C6 /* SuperpoweredIOSAudioIO.mm */; };
+		2C620F9B1F7B9A1800EAFA56 /* SuperpoweredWhoosh.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B79621F78CD40002412C6 /* SuperpoweredWhoosh.h */; };
+		2C620F9C1F7B9A1800EAFA56 /* SuperpoweredReverb.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B79561F78BED0002412C6 /* SuperpoweredReverb.h */; };
+		2C620F9D1F7B9A1800EAFA56 /* SuperpoweredEcho.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B794E1F78BCBD002412C6 /* SuperpoweredEcho.h */; };
+		2C620F9E1F7B9A1800EAFA56 /* Superpowered3BandEQ.h in Sources */ = {isa = PBXBuildFile; fileRef = 2CC79F9C1F7A38DB00B28406 /* Superpowered3BandEQ.h */; };
+		2C620F9F1F7B9A1800EAFA56 /* SuperpoweredFrequencyDomain.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B79731F78FABA002412C6 /* SuperpoweredFrequencyDomain.h */; };
+		2C620FA01F7B9A1800EAFA56 /* SuperpoweredFilter.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B794B1F78BCBD002412C6 /* SuperpoweredFilter.h */; };
+		2C620FA11F7B9A1800EAFA56 /* SuperpoweredMixer.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B79491F78BCBD002412C6 /* SuperpoweredMixer.h */; };
+		2C620FA31F7B9A1800EAFA56 /* FrequencyDomain.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B79771F78FBE3002412C6 /* FrequencyDomain.h */; };
+		2C620FA41F7B9A3B00EAFA56 /* libSuperpoweredAudioIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1B794A1F78BCBD002412C6 /* libSuperpoweredAudioIOS.a */; };
+		2C620FA51F7B9B0900EAFA56 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1B796D1F78F3A3002412C6 /* CoreMedia.framework */; };
+		2C620FA61F7B9B0900EAFA56 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1B79701F78F3B8002412C6 /* MediaPlayer.framework */; };
+		2C620FA71F7B9B1000EAFA56 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1B796C1F78F3A3002412C6 /* CoreAudio.framework */; };
+		2C620FA81F7B9B1600EAFA56 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1B79661F78F374002412C6 /* AVFoundation.framework */; };
+		2C620FA91F7B9B2200EAFA56 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1B79681F78F375002412C6 /* AudioToolbox.framework */; };
+		2C7AF8761F7E4AB0005D8E05 /* SuperpoweredCPU.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C7AF8741F7E4AA7005D8E05 /* SuperpoweredCPU.h */; };
+		2C7AF8771F7E4AB0005D8E05 /* SuperpoweredFX.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C7AF8751F7E4AA7005D8E05 /* SuperpoweredFX.h */; };
+		2C7AF8781F7E4AB0005D8E05 /* SuperpoweredGate.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C7AF8721F7E4AA6005D8E05 /* SuperpoweredGate.h */; };
+		2C7AF8791F7E4AB0005D8E05 /* SuperpoweredRoll.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C7AF8731F7E4AA7005D8E05 /* SuperpoweredRoll.h */; };
+		2C95A3DE1FC52DDA0000F240 /* emoiVuCatTuong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C95A3DD1FC52DDA0000F240 /* emoiVuCatTuong.mp3 */; };
+		6586908C4858C75C65AFC54B /* Pods_SuperPoweredTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97681A26DADE746799434EB /* Pods_SuperPoweredTests.framework */; };
+		810F0AF03CECBF37B8376762 /* Pods_SuperPowered.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E827A7D5D43C43E7607EB1F0 /* Pods_SuperPowered.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C1B792B1F78BAF1002412C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C1B790E1F78BAF1002412C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C1B79151F78BAF1002412C6;
+			remoteInfo = SuperPowered;
+		};
+		2C1B79361F78BAF1002412C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C1B790E1F78BAF1002412C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C1B79151F78BAF1002412C6;
+			remoteInfo = SuperPowered;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C7B03631F9F2D0400E16E41 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		28AAA61E65D1C12D123DDDE2 /* Pods-SuperPowered.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperPowered.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperPowered/Pods-SuperPowered.debug.xcconfig"; sourceTree = "<group>"; };
+		2C1B79161F78BAF1002412C6 /* SuperPowered.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperPowered.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1B79191F78BAF1002412C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C1B791B1F78BAF1002412C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C1B791E1F78BAF1002412C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C1B79201F78BAF1002412C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C1B79231F78BAF1002412C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C1B79251F78BAF1002412C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1B792A1F78BAF1002412C6 /* SuperPoweredTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperPoweredTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1B792E1F78BAF1002412C6 /* SuperPoweredTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperPoweredTests.swift; sourceTree = "<group>"; };
+		2C1B79301F78BAF1002412C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1B79351F78BAF1002412C6 /* SuperPoweredUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperPoweredUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1B79391F78BAF1002412C6 /* SuperPoweredUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperPoweredUITests.swift; sourceTree = "<group>"; };
+		2C1B793B1F78BAF1002412C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1B79491F78BCBD002412C6 /* SuperpoweredMixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredMixer.h; sourceTree = "<group>"; };
+		2C1B794A1F78BCBD002412C6 /* libSuperpoweredAudioIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSuperpoweredAudioIOS.a; sourceTree = "<group>"; };
+		2C1B794B1F78BCBD002412C6 /* SuperpoweredFilter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = SuperpoweredFilter.h; sourceTree = "<group>"; };
+		2C1B794E1F78BCBD002412C6 /* SuperpoweredEcho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredEcho.h; sourceTree = "<group>"; };
+		2C1B79561F78BED0002412C6 /* SuperpoweredReverb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredReverb.h; sourceTree = "<group>"; };
+		2C1B795F1F78CD40002412C6 /* SuperpoweredFlanger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredFlanger.h; sourceTree = "<group>"; };
+		2C1B79601F78CD40002412C6 /* SuperpoweredIOSAudioIO.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SuperpoweredIOSAudioIO.mm; sourceTree = "<group>"; };
+		2C1B79611F78CD40002412C6 /* SuperpoweredIOSAudioIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredIOSAudioIO.h; sourceTree = "<group>"; };
+		2C1B79621F78CD40002412C6 /* SuperpoweredWhoosh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredWhoosh.h; sourceTree = "<group>"; };
+		2C1B79661F78F374002412C6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2C1B79671F78F374002412C6 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		2C1B79681F78F375002412C6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2C1B796C1F78F3A3002412C6 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		2C1B796D1F78F3A3002412C6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2C1B79701F78F3B8002412C6 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		2C1B79721F78F5B6002412C6 /* SuperPowered-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperPowered-Bridging-Header.h"; sourceTree = "<group>"; };
+		2C1B79731F78FABA002412C6 /* SuperpoweredFrequencyDomain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperpoweredFrequencyDomain.h; sourceTree = "<group>"; };
+		2C1B79741F78FB33002412C6 /* SuperpoweredAudioBuffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredAudioBuffers.h; sourceTree = "<group>"; };
+		2C1B79771F78FBE3002412C6 /* FrequencyDomain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrequencyDomain.h; sourceTree = "<group>"; };
+		2C1B79781F78FC4C002412C6 /* SuperpoweredSimple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperpoweredSimple.h; sourceTree = "<group>"; };
+		2C57D4181F99A3DC005DD2A5 /* SuperpoweredRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredRecorder.h; sourceTree = "<group>"; };
+		2C57D4191F99A547005DD2A5 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		2C620F911F7B992700EAFA56 /* FrequencyDomain.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FrequencyDomain.mm; sourceTree = "<group>"; };
+		2C7AF8721F7E4AA6005D8E05 /* SuperpoweredGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredGate.h; sourceTree = "<group>"; };
+		2C7AF8731F7E4AA7005D8E05 /* SuperpoweredRoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredRoll.h; sourceTree = "<group>"; };
+		2C7AF8741F7E4AA7005D8E05 /* SuperpoweredCPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredCPU.h; sourceTree = "<group>"; };
+		2C7AF8751F7E4AA7005D8E05 /* SuperpoweredFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredFX.h; sourceTree = "<group>"; };
+		2C95A3DD1FC52DDA0000F240 /* emoiVuCatTuong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = emoiVuCatTuong.mp3; sourceTree = "<group>"; };
+		2CC79F9C1F7A38DB00B28406 /* Superpowered3BandEQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Superpowered3BandEQ.h; sourceTree = "<group>"; };
+		7C86CF5BA9C438FE3C45D7DE /* Pods_SuperPoweredUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperPoweredUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		960149D6A007A229C1A4C448 /* Pods-SuperPoweredUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperPoweredUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperPoweredUITests/Pods-SuperPoweredUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		98BE16F21F8384FC00B989BF /* SuperPowered.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SuperPowered.entitlements; sourceTree = "<group>"; };
+		A098D8351EBDB1E35B2B8DF8 /* Pods-SuperPoweredTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperPoweredTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperPoweredTests/Pods-SuperPoweredTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5CECE65C3FBFBB08338716F /* Pods-SuperPoweredTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperPoweredTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperPoweredTests/Pods-SuperPoweredTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E827A7D5D43C43E7607EB1F0 /* Pods_SuperPowered.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperPowered.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97681A26DADE746799434EB /* Pods_SuperPoweredTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperPoweredTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E778059E71453604860F6B /* Pods-SuperPowered.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperPowered.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperPowered/Pods-SuperPowered.release.xcconfig"; sourceTree = "<group>"; };
+		F8E9F8BA8C06ECC4F94F3720 /* Pods-SuperPoweredUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperPoweredUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperPoweredUITests/Pods-SuperPoweredUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C1B79131F78BAF1002412C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C620FA91F7B9B2200EAFA56 /* AudioToolbox.framework in Frameworks */,
+				2C620FA81F7B9B1600EAFA56 /* AVFoundation.framework in Frameworks */,
+				2C620FA71F7B9B1000EAFA56 /* CoreAudio.framework in Frameworks */,
+				2C620FA51F7B9B0900EAFA56 /* CoreMedia.framework in Frameworks */,
+				2C620FA61F7B9B0900EAFA56 /* MediaPlayer.framework in Frameworks */,
+				2C620FA41F7B9A3B00EAFA56 /* libSuperpoweredAudioIOS.a in Frameworks */,
+				810F0AF03CECBF37B8376762 /* Pods_SuperPowered.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1B79271F78BAF1002412C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6586908C4858C75C65AFC54B /* Pods_SuperPoweredTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1B79321F78BAF1002412C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0868A033D5B0AFA215FD77DB /* Pods_SuperPoweredUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C1B790D1F78BAF1002412C6 = {
+			isa = PBXGroup;
+			children = (
+				2C1B79181F78BAF1002412C6 /* SuperPowered */,
+				2C1B792D1F78BAF1002412C6 /* SuperPoweredTests */,
+				2C1B79381F78BAF1002412C6 /* SuperPoweredUITests */,
+				2C1B79171F78BAF1002412C6 /* Products */,
+				2C1B79651F78F374002412C6 /* Frameworks */,
+				B7E80034018E0612B0CB2CB4 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2C1B79171F78BAF1002412C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C1B79161F78BAF1002412C6 /* SuperPowered.app */,
+				2C1B792A1F78BAF1002412C6 /* SuperPoweredTests.xctest */,
+				2C1B79351F78BAF1002412C6 /* SuperPoweredUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C1B79181F78BAF1002412C6 /* SuperPowered */ = {
+			isa = PBXGroup;
+			children = (
+				98BE16F21F8384FC00B989BF /* SuperPowered.entitlements */,
+				2C1B79481F78BB87002412C6 /* libAudio */,
+				2C1B79191F78BAF1002412C6 /* AppDelegate.swift */,
+				2C1B791B1F78BAF1002412C6 /* ViewController.swift */,
+				2C1B791D1F78BAF1002412C6 /* Main.storyboard */,
+				2C1B79201F78BAF1002412C6 /* Assets.xcassets */,
+				2C1B79221F78BAF1002412C6 /* LaunchScreen.storyboard */,
+				2C1B79251F78BAF1002412C6 /* Info.plist */,
+				2C1B79721F78F5B6002412C6 /* SuperPowered-Bridging-Header.h */,
+				2C57D4191F99A547005DD2A5 /* PlayerViewController.swift */,
+				2C95A3DD1FC52DDA0000F240 /* emoiVuCatTuong.mp3 */,
+			);
+			path = SuperPowered;
+			sourceTree = "<group>";
+		};
+		2C1B792D1F78BAF1002412C6 /* SuperPoweredTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C1B792E1F78BAF1002412C6 /* SuperPoweredTests.swift */,
+				2C1B79301F78BAF1002412C6 /* Info.plist */,
+			);
+			path = SuperPoweredTests;
+			sourceTree = "<group>";
+		};
+		2C1B79381F78BAF1002412C6 /* SuperPoweredUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C1B79391F78BAF1002412C6 /* SuperPoweredUITests.swift */,
+				2C1B793B1F78BAF1002412C6 /* Info.plist */,
+			);
+			path = SuperPoweredUITests;
+			sourceTree = "<group>";
+		};
+		2C1B79481F78BB87002412C6 /* libAudio */ = {
+			isa = PBXGroup;
+			children = (
+				2C7AF8741F7E4AA7005D8E05 /* SuperpoweredCPU.h */,
+				2C7AF8751F7E4AA7005D8E05 /* SuperpoweredFX.h */,
+				2C7AF8721F7E4AA6005D8E05 /* SuperpoweredGate.h */,
+				2C7AF8731F7E4AA7005D8E05 /* SuperpoweredRoll.h */,
+				2C1B79741F78FB33002412C6 /* SuperpoweredAudioBuffers.h */,
+				2C1B794A1F78BCBD002412C6 /* libSuperpoweredAudioIOS.a */,
+				2C57D4181F99A3DC005DD2A5 /* SuperpoweredRecorder.h */,
+				2C1B79781F78FC4C002412C6 /* SuperpoweredSimple.h */,
+				2C1B795F1F78CD40002412C6 /* SuperpoweredFlanger.h */,
+				2C1B79611F78CD40002412C6 /* SuperpoweredIOSAudioIO.h */,
+				2C1B79601F78CD40002412C6 /* SuperpoweredIOSAudioIO.mm */,
+				2C1B79621F78CD40002412C6 /* SuperpoweredWhoosh.h */,
+				2C1B79561F78BED0002412C6 /* SuperpoweredReverb.h */,
+				2C1B794E1F78BCBD002412C6 /* SuperpoweredEcho.h */,
+				2CC79F9C1F7A38DB00B28406 /* Superpowered3BandEQ.h */,
+				2C1B79731F78FABA002412C6 /* SuperpoweredFrequencyDomain.h */,
+				2C1B794B1F78BCBD002412C6 /* SuperpoweredFilter.h */,
+				2C1B79491F78BCBD002412C6 /* SuperpoweredMixer.h */,
+				2C620F911F7B992700EAFA56 /* FrequencyDomain.mm */,
+				2C1B79771F78FBE3002412C6 /* FrequencyDomain.h */,
+			);
+			path = libAudio;
+			sourceTree = "<group>";
+		};
+		2C1B79651F78F374002412C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C1B79701F78F3B8002412C6 /* MediaPlayer.framework */,
+				2C1B796C1F78F3A3002412C6 /* CoreAudio.framework */,
+				2C1B796D1F78F3A3002412C6 /* CoreMedia.framework */,
+				2C1B79681F78F375002412C6 /* AudioToolbox.framework */,
+				2C1B79671F78F374002412C6 /* AudioUnit.framework */,
+				2C1B79661F78F374002412C6 /* AVFoundation.framework */,
+				E827A7D5D43C43E7607EB1F0 /* Pods_SuperPowered.framework */,
+				E97681A26DADE746799434EB /* Pods_SuperPoweredTests.framework */,
+				7C86CF5BA9C438FE3C45D7DE /* Pods_SuperPoweredUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7E80034018E0612B0CB2CB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28AAA61E65D1C12D123DDDE2 /* Pods-SuperPowered.debug.xcconfig */,
+				F1E778059E71453604860F6B /* Pods-SuperPowered.release.xcconfig */,
+				C5CECE65C3FBFBB08338716F /* Pods-SuperPoweredTests.debug.xcconfig */,
+				A098D8351EBDB1E35B2B8DF8 /* Pods-SuperPoweredTests.release.xcconfig */,
+				960149D6A007A229C1A4C448 /* Pods-SuperPoweredUITests.debug.xcconfig */,
+				F8E9F8BA8C06ECC4F94F3720 /* Pods-SuperPoweredUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C1B79151F78BAF1002412C6 /* SuperPowered */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C1B793E1F78BAF1002412C6 /* Build configuration list for PBXNativeTarget "SuperPowered" */;
+			buildPhases = (
+				7D526F0445C50A7E52E3DA8F /* [CP] Check Pods Manifest.lock */,
+				2C1B79121F78BAF1002412C6 /* Sources */,
+				2C1B79131F78BAF1002412C6 /* Frameworks */,
+				2C1B79141F78BAF1002412C6 /* Resources */,
+				CC23CF3CF1AA061E63605C3C /* [CP] Embed Pods Frameworks */,
+				6C7CBFBDADD56CB05B607F91 /* [CP] Copy Pods Resources */,
+				2C7B03631F9F2D0400E16E41 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperPowered;
+			productName = SuperPowered;
+			productReference = 2C1B79161F78BAF1002412C6 /* SuperPowered.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C1B79291F78BAF1002412C6 /* SuperPoweredTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C1B79411F78BAF1002412C6 /* Build configuration list for PBXNativeTarget "SuperPoweredTests" */;
+			buildPhases = (
+				503A345070216A3C994F44DF /* [CP] Check Pods Manifest.lock */,
+				2C1B79261F78BAF1002412C6 /* Sources */,
+				2C1B79271F78BAF1002412C6 /* Frameworks */,
+				2C1B79281F78BAF1002412C6 /* Resources */,
+				A8020872DA944A7D64EF9A63 /* [CP] Embed Pods Frameworks */,
+				87ADF4E4A54B7FCABA4F1521 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C1B792C1F78BAF1002412C6 /* PBXTargetDependency */,
+			);
+			name = SuperPoweredTests;
+			productName = SuperPoweredTests;
+			productReference = 2C1B792A1F78BAF1002412C6 /* SuperPoweredTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C1B79341F78BAF1002412C6 /* SuperPoweredUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C1B79441F78BAF1002412C6 /* Build configuration list for PBXNativeTarget "SuperPoweredUITests" */;
+			buildPhases = (
+				A224FF435933181E090E144D /* [CP] Check Pods Manifest.lock */,
+				2C1B79311F78BAF1002412C6 /* Sources */,
+				2C1B79321F78BAF1002412C6 /* Frameworks */,
+				2C1B79331F78BAF1002412C6 /* Resources */,
+				9E18C0BCAC8EC31B1559D7CA /* [CP] Embed Pods Frameworks */,
+				E640C1A989EB10322CE60DBC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C1B79371F78BAF1002412C6 /* PBXTargetDependency */,
+			);
+			name = SuperPoweredUITests;
+			productName = SuperPoweredUITests;
+			productReference = 2C1B79351F78BAF1002412C6 /* SuperPoweredUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C1B790E1F78BAF1002412C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = JBach;
+				TargetAttributes = {
+					2C1B79151F78BAF1002412C6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+					2C1B79291F78BAF1002412C6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C1B79151F78BAF1002412C6;
+					};
+					2C1B79341F78BAF1002412C6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C1B79151F78BAF1002412C6;
+					};
+				};
+			};
+			buildConfigurationList = 2C1B79111F78BAF1002412C6 /* Build configuration list for PBXProject "SuperPowered" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C1B790D1F78BAF1002412C6;
+			productRefGroup = 2C1B79171F78BAF1002412C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C1B79151F78BAF1002412C6 /* SuperPowered */,
+				2C1B79291F78BAF1002412C6 /* SuperPoweredTests */,
+				2C1B79341F78BAF1002412C6 /* SuperPoweredUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C1B79141F78BAF1002412C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1B79241F78BAF1002412C6 /* LaunchScreen.storyboard in Resources */,
+				2C1B79211F78BAF1002412C6 /* Assets.xcassets in Resources */,
+				2C95A3DE1FC52DDA0000F240 /* emoiVuCatTuong.mp3 in Resources */,
+				2C1B791F1F78BAF1002412C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1B79281F78BAF1002412C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1B79331F78BAF1002412C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		503A345070216A3C994F44DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperPoweredTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C7CBFBDADD56CB05B607F91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperPowered/Pods-SuperPowered-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D526F0445C50A7E52E3DA8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperPowered-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87ADF4E4A54B7FCABA4F1521 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperPoweredTests/Pods-SuperPoweredTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E18C0BCAC8EC31B1559D7CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperPoweredUITests/Pods-SuperPoweredUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A224FF435933181E090E144D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperPoweredUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8020872DA944A7D64EF9A63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperPoweredTests/Pods-SuperPoweredTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC23CF3CF1AA061E63605C3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SuperPowered/Pods-SuperPowered-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperPowered/Pods-SuperPowered-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E640C1A989EB10322CE60DBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperPoweredUITests/Pods-SuperPoweredUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C1B79121F78BAF1002412C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7AF8761F7E4AB0005D8E05 /* SuperpoweredCPU.h in Sources */,
+				2C7AF8771F7E4AB0005D8E05 /* SuperpoweredFX.h in Sources */,
+				2C7AF8781F7E4AB0005D8E05 /* SuperpoweredGate.h in Sources */,
+				2C7AF8791F7E4AB0005D8E05 /* SuperpoweredRoll.h in Sources */,
+				2C620F941F7B9A1800EAFA56 /* FrequencyDomain.mm in Sources */,
+				2C620F951F7B9A1800EAFA56 /* SuperpoweredAudioBuffers.h in Sources */,
+				2C620F961F7B9A1800EAFA56 /* SuperpoweredSimple.h in Sources */,
+				2C620F981F7B9A1800EAFA56 /* SuperpoweredFlanger.h in Sources */,
+				2C620F991F7B9A1800EAFA56 /* SuperpoweredIOSAudioIO.h in Sources */,
+				2C620F9A1F7B9A1800EAFA56 /* SuperpoweredIOSAudioIO.mm in Sources */,
+				2C620F9B1F7B9A1800EAFA56 /* SuperpoweredWhoosh.h in Sources */,
+				2C620F9C1F7B9A1800EAFA56 /* SuperpoweredReverb.h in Sources */,
+				2C620F9D1F7B9A1800EAFA56 /* SuperpoweredEcho.h in Sources */,
+				2C620F9E1F7B9A1800EAFA56 /* Superpowered3BandEQ.h in Sources */,
+				2C620F9F1F7B9A1800EAFA56 /* SuperpoweredFrequencyDomain.h in Sources */,
+				2C620FA01F7B9A1800EAFA56 /* SuperpoweredFilter.h in Sources */,
+				2C620FA11F7B9A1800EAFA56 /* SuperpoweredMixer.h in Sources */,
+				2C57D41A1F99A547005DD2A5 /* PlayerViewController.swift in Sources */,
+				2C620FA31F7B9A1800EAFA56 /* FrequencyDomain.h in Sources */,
+				2C1B791C1F78BAF1002412C6 /* ViewController.swift in Sources */,
+				2C1B791A1F78BAF1002412C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1B79261F78BAF1002412C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1B792F1F78BAF1002412C6 /* SuperPoweredTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1B79311F78BAF1002412C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1B793A1F78BAF1002412C6 /* SuperPoweredUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C1B792C1F78BAF1002412C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C1B79151F78BAF1002412C6 /* SuperPowered */;
+			targetProxy = 2C1B792B1F78BAF1002412C6 /* PBXContainerItemProxy */;
+		};
+		2C1B79371F78BAF1002412C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C1B79151F78BAF1002412C6 /* SuperPowered */;
+			targetProxy = 2C1B79361F78BAF1002412C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C1B791D1F78BAF1002412C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C1B791E1F78BAF1002412C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C1B79221F78BAF1002412C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C1B79231F78BAF1002412C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C1B793C1F78BAF1002412C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C1B793D1F78BAF1002412C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C1B793F1F78BAF1002412C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28AAA61E65D1C12D123DDDE2 /* Pods-SuperPowered.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NS8J92RYG;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SuperPowered/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SuperPowered/libAudio",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.baveku.soundfx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SuperPowered/SuperPowered-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C1B79401F78BAF1002412C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E778059E71453604860F6B /* Pods-SuperPowered.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NS8J92RYG;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SuperPowered/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SuperPowered/libAudio",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.baveku.soundfx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SuperPowered/SuperPowered-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C1B79421F78BAF1002412C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5CECE65C3FBFBB08338716F /* Pods-SuperPoweredTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuperPoweredTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bb.SuperPoweredTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperPowered.app/SuperPowered";
+			};
+			name = Debug;
+		};
+		2C1B79431F78BAF1002412C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A098D8351EBDB1E35B2B8DF8 /* Pods-SuperPoweredTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuperPoweredTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bb.SuperPoweredTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperPowered.app/SuperPowered";
+			};
+			name = Release;
+		};
+		2C1B79451F78BAF1002412C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 960149D6A007A229C1A4C448 /* Pods-SuperPoweredUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuperPoweredUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bb.SuperPoweredUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperPowered;
+			};
+			name = Debug;
+		};
+		2C1B79461F78BAF1002412C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8E9F8BA8C06ECC4F94F3720 /* Pods-SuperPoweredUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuperPoweredUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bb.SuperPoweredUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperPowered;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C1B79111F78BAF1002412C6 /* Build configuration list for PBXProject "SuperPowered" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C1B793C1F78BAF1002412C6 /* Debug */,
+				2C1B793D1F78BAF1002412C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C1B793E1F78BAF1002412C6 /* Build configuration list for PBXNativeTarget "SuperPowered" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C1B793F1F78BAF1002412C6 /* Debug */,
+				2C1B79401F78BAF1002412C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C1B79411F78BAF1002412C6 /* Build configuration list for PBXNativeTarget "SuperPoweredTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C1B79421F78BAF1002412C6 /* Debug */,
+				2C1B79431F78BAF1002412C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C1B79441F78BAF1002412C6 /* Build configuration list for PBXNativeTarget "SuperPoweredUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C1B79451F78BAF1002412C6 /* Debug */,
+				2C1B79461F78BAF1002412C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C1B790E1F78BAF1002412C6 /* Project object */;
+}
